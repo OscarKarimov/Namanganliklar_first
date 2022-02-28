@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #F6F6F9;
+}
+.header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.header .header-top .header-left{
+    display: flex;
+    align-items: center;
+}
+.header .header-top .header-logo{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right: 20px;
+}
+.header .header-top .header-left .currency{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-top .header-left .currency p{
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #515151;
+    margin-right: 20px;
+    
+}
+.header .header-top .header-left .currency p b{ 
+    color: #285193;
+    
+    
+} 
+.header .header-top .header-right .telegram-logo{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.header .header-top .header-right .telegram-logo img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.header-mid{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+.header-mid .nav-links{
+    display: block;
+    padding: 22px 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+
+}
+.header .header-bottom{
+    display:  flex;
+    padding-bottom: 23px;
+    justify-content: center;
+}
